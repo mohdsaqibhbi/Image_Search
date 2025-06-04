@@ -1,0 +1,14 @@
+services:
+  image-search:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: image-search
+    container_name: image-search
+    ports:
+      - 8000:8000
+    environment:
+      - APPLICATION=ImageSearchAPI
+      - LOGGING_LEVEL=INFO
+    volumes:
+      - /home/azureuser/cloudfiles/code/Users/mohd.saqib/Others/Image_Search/data:/home/azureuser/cloudfiles/code/Users/mohd.saqib/Others/Image_Search/data

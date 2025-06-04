@@ -1,0 +1,12 @@
+{
+    "model": {
+        "modelname": "openai/clip-vit-base-patch32"
+    },
+    "data": {
+        "data_location": "../../data/images"
+    },
+    "database": {
+        "faiss_index_location": "schema/database/faiss_index.bin",
+        "image_mapping_location": "schema/database/image_mapping.pkl"
+    }
+}

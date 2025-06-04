@@ -1,0 +1,7 @@
+**/__pycache__
+**/*.log
+*.pyc
+**/*.pyc
+**/faiss_index.bin
+**/image_mapping.pkl
+development/
